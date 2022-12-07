@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
     .highlight {
     background-color: yellow;
     font-weight: bold;
-    }
+    } 
     `
   ]
 })
@@ -48,6 +48,7 @@ export class DataBindingComponent implements OnInit {
       this.isMouseOver = !this.isMouseOver;
     }
 
+  
   constructor() { }
 
   ngOnInit(): void {
