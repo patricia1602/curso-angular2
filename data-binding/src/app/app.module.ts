@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
-import { FormsModule } from '@angular/forms';
-import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputPropertyComponent } from './input-property/input-property.component';
+import { MeuFormModule } from './meu-form/meu-form.module';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
@@ -14,7 +15,8 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
     AppComponent,
     DataBindingComponent,
     InputPropertyComponent,
-    OutputPropertyComponent
+    OutputPropertyComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
